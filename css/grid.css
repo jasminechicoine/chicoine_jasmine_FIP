@@ -30,9 +30,11 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 .box {
-   background-color: rgb(46, 69, 45);
-   font-family: american typewriter;
-   color: rgb(202, 211, 174);
+   
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #46627B;
    border-radius: 5px;
    padding: 20px;
    text-align: center;
@@ -155,10 +157,10 @@ body, p, h1, h2, h3, h4, h5 {
 
    .grid-con { 
       display: grid; 
-      grid-template-columns: repeat(13, minmax(0, 1fr));
+      grid-template-columns: repeat(15, minmax(0, 1fr));
       grid-column-gap: 30px;
-      padding-left: 143px;
-      padding-right: 143px;
+      padding-left: 82px;
+      padding-right: 82px;
    }
 
    .xl-col-auto {grid-column: auto;}
@@ -175,7 +177,9 @@ body, p, h1, h2, h3, h4, h5 {
    .xl-col-span-11 {grid-column: span 11 / span 11;}
    .xl-col-span-12 {grid-column: span 12 / span 12;}
    .xl-col-span-13 {grid-column: span 13 / span 13;}
-   .xl-col-span-14 {grid-column: span 13 / span 14;}
+   .xl-col-span-14 {grid-column: span 14 / span 14;}
+   .xl-col-span-15 {grid-column: span 15 / span 15;}
+   .xl-col-span-16 {grid-column: span 16 / span 16;}
    .xl-col-span-full {grid-column: 1 / -1;}
 
    .xl-col-start-1	{grid-column-start: 1;}
@@ -192,6 +196,8 @@ body, p, h1, h2, h3, h4, h5 {
    .xl-col-start-12	{grid-column-start: 12;}
    .xl-col-start-13	{grid-column-start: 13;}
    .xl-col-start-14	{grid-column-start: 14;}
+   .xl-col-start-15	{grid-column-start: 15;}
+   .xl-col-start-16	{grid-column-start: 16;}
    .xl-col-start-auto {grid-column-start: auto;}
 
    .xl-col-end-1	{grid-column-end: 1;}
@@ -208,5 +214,7 @@ body, p, h1, h2, h3, h4, h5 {
    .xl-col-end-12	{grid-column-end: 12;}
    .xl-col-end-13	{grid-column-end: 13;}
    .xl-col-end-14	{grid-column-end: 14;}
+   .xl-col-end-15	{grid-column-end: 15;}
+   .xl-col-end-16	{grid-column-end: 16;}
    .xl-col-end-auto	{grid-column-end: auto;}
 }
