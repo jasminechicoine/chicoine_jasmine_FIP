@@ -8,28 +8,39 @@
     <title>grid framework scaffold</title>
     <!-- Link to reset or normalize before main.css
     only choose one -->
-
+    <link rel="stylesheet" href="https://use.typekit.net/jwt6say.css">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
   <body>
    <div class="container">
     <h1 class="hidden">Grid Framework Scaffold</h1>
-
-    <header class="grid-con" id="main-header">
-        <h2 class="hidden"> Main Header Content </h2>
-            <div class="box col-span-full col-end-1 m-col-start-1 m-col-end-3" 
-            id="main-logo">Logo</div>
-            <nav class="box col-start-4 col-end-5 m-col-start-7 m-col-end-9 xl-col-start-5 xl-col-end-7">Nav</nav> 
-            <nav id="nav2" class="box xl-col-start-7 xl-col-end-9">Nav2</nav>
-            <nav id="nav3" class="box xl-col-start-9 xl-col-end-11">Nav3</nav>
-    </header>
+    
+    <div id="sticky-nav-con">
+        <header class="grid-con" id="main-header">
+            <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11 xl-col-start-9 xl-col-end-16">
+                <h2 class="hidden">Main Navigation</h2>
+                <button id="button"></button>
+                <div id="burger-con">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Our Distillery</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="logo" class="col-span-full m-col-start-1 m-col-end-4">
+                <img src="images/zima-logo.svg" alt="Couples Resort Logo">
+            </div>
+            
+        </header>
+    </div>
 
     <main>
         <h2 class="hidden"> Main Content </h2>
             <section class="full-width-grid-con" id="hero-con">
                 <h2 class="hidden"> Hero Image </h2>
-                <div id="hero" class="box col-span-full">Brand Name Banner</div>
+                <div id="hero" class="box col-span-full">Brand Name </div>
             </section>
 
             <section class="full-width-grid-con">
