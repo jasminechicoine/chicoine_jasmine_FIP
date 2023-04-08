@@ -76,82 +76,247 @@
    
    
 }
- #hero {
-    height: 163px;
+
+
+   #pop-up {
+      display: none;
+  }
+
+   #hero {
+
+    width: 100%;
+    height: 180px;
+    
+   }
   
- }
+   
+   #mybutton {
+       width:320px;
+       height: 70px;
+       background-color:#304455 ;
+       color: #efefef;
+       font-family: "orpheuspro", serif;
+       font-weight: 400;
+       font-style: normal;
+       font-size: 15px;
+       border-radius: px;
+       border: none;
+       position: absolute;
+       margin-top: 0px;
+       
+    }
+
+    #mybutton:hover {
+       background-color:#efefef ;
+       color: #304455; 
+    }
+
+  #why-zima {
+    height:1000px;
+    color: #304455 ;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }  
+
+  #why-zima h2{
+    margin-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    width:300px;
+  }  
+
+  #why-zima p{
+    width:250px;
+    padding-left: 10px;
+    
+  }  
+
+  #label {
+  position: absolute;
+  left:30%;
+  margin-top: 500px;
+  width:141px;
  
- #image {
-    height: 246px;
+  }
+
+  #can {
+   width:141px;
+    margin-top: 170px;
+   position: absolute;
+   margin-left: 60px;
+   
+
+  }
   
+  #zima-flavours {
+   
+
+    height: 500px;
+  }
+
+  #flavour-text {
+   
+    margin-top: 0px;
+    color: #304455 ;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  #flavour-text h2  {
+    padding-bottom: 30px;
+  }
+
+  #fruit-buttons {
+   margin-top: 90px;
+  }
+
+  #fruit-buttons button {
+    padding: 0px; border: none; background: none;
+    margin-bottom: 30px;
+  }
+
+  #fruit-buttons button:hover {
+    transform: scale(110%);
+    transform: rotate(20deg);
+  }
+  
+  #lemon-but {
+    margin-bottom: 30px;
+  }
+
+   #share-con {
+     
+      
+      background-color: #FFF8E5;
+      color: #ffffff ;
+      font-family: "orpheuspro", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      margin-bottom: 20px;
+      padding-bottom:50px;
+  }
+
+  #share-txt h2 {
+    margin-bottom: 20px;
+    background-color: #FFF8E5;
+    color: #304455;
+  }
+
+  #share-txt h3 {
+    color: #304455;
+    margin-bottom: 20px;
+    background-color: #FFF8E5;
+  }
+
+
+  
+  #share-pic {
+    margin-top: 80px ;
+    margin-bottom: 80px;
+  }
+   
+ #icons {
+    margin-left: 50px;
  }
- #text {
-    display: none;
+
+  #icons img {
+    padding-right: 20px;
+  
+  }
+
+ #footer-logo {
+   margin-top: 50px;
+   position: absolute;
+   width:200px;
  }
+
+ #footer {
+    background-color: #FFF8E5;
+ }
+
+  #footer-con {
+    
+    position: absolute;
+    margin-top: 140px;
+    margin-left: -30px;
+    font-family: "orpheuspro", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+     line-height: 60px;
+   
+  }
+
+  #footer-con ul {
+    list-style-type: none;
+  
+  }
+
+  #footer-con ul li a {
+    text-decoration: none;
+    color:#304455 ;
+    
+    
+  }
+  
  
- #image-shape {
-    height: 246px;
- }
+  
+.close {
+
+   
+
+    color: rgb(0, 0, 0);
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+
+   
+}
+
+.ad {
+ position: absolute;
+ top: 7%;
+
  
- #heading {
-    height: 67px
- }
+
+
  
- #prod-img-1{
-    height:246px;
- }
+}
+
+.ad .preview{
+ display: none;
+ width:101.5vw;
+}
+
+.ad .preview.active{
+ display: inline-block;
+}
+
+
+
+
+.ad .preview .close{
+ position: absolute;
+ left:95%;
+ cursor: pointer;
+ color:#444;
  
- #prod-img-2 {
-    display:none;
- }
+}
+
+.ad .preview .close:hover{
+ transform:scale(50%);
+}
  
- #prod-img-3 {
-    display:none;
- }
+
  
- #prod-img-4 {
-    display:none;
- }
- 
- #heading-2 {
-    height: 67px
- }
- 
- #share {
-    height:152px;
- }
- 
- #heading-3 {
-    height: 65px;
- }
- 
- #email {
-    height: 46px;
- }
- 
- #phone {
-    height: 46px;
- }
- 
- #sign-up {
-    height: 46px;
- }
- 
- #socials-1 {
-    height: 54px;
- }
- 
- #socials-2 {
-    height: 54px;
- }
- 
- #socials-3 {
-    height: 54px;
- }
- 
- #socials-4 {
-    height: 54px;
- }
+
 
 
 /* ---- Tablet ---- */
@@ -160,7 +325,7 @@
    #sticky-nav-con {
       position: sticky;
       top: 0px;
-      background-color: #fff;
+      background-color: #FFFCF4;
       z-index: 1;
    }
 
@@ -204,89 +369,256 @@
       padding-left: 60px;
     
    }
-     #hero {
-        height: 650px;
-       
-       
-     }
+   #pop-up {
+      display: none;
+  }
+
+   #hero {
+
+    width: 100%;
+    height: 475px;
+    
+   }
   
-     #pop-up {
-        display: none;
-     }
+   
+   #mybutton {
+       width:150px;
+       height: 70px;
+       background-color:#304455 ;
+       color: #efefef;
+       font-family: "orpheuspro", serif;
+       font-weight: 400;
+       font-style: normal;
+       font-size: 15px;
+       border-radius: 10px;
+       border: none;
+       position: absolute;
+       margin-top: -150px;
+       margin-left: 60px;
+    }
+
+    #mybutton:hover {
+       background-color:#efefef ;
+       color: #304455; 
+    }
+
+  #why-zima {
+    height:700px;
+    color: #304455 ;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }  
+
+  #why-zima h2{
+    margin-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    width:300px;
+  }  
+
+  #why-zima p{
+    width:300px;
+    padding-left: 20px;
+    
+  }  
+
+  #label {
+  position: absolute;
+  left:70%;
+  margin-top: 100px;
+  width:141px;
+ 
+  }
+
+  #can {
+   width:141px;
+    margin-top: 0px;
+   position: absolute;
+   margin-left: 60px;
+
+  }
   
-     #image {
-        height: 255px;
+  #zima-flavours {
+   
+
+    height: 500px;
+  }
+
+  #flavour-text {
+   
+    margin-top: 0px;
+    color: #304455 ;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  #flavour-text h2  {
+    padding-bottom: 30px;
+  }
+
+  #fruit-buttons {
+   margin-top: -300px;
+  }
+
+  #fruit-buttons button {
+    padding: 0px; border: none; background: none;
+    margin-bottom: 30px;
+  }
+
+  #fruit-buttons button:hover {
+    transform: scale(110%);
+    transform: rotate(20deg);
+  }
+  
+  #lemon-but {
+    margin-bottom: 30px;
+  }
+
+
+
+   
+   
+
+  
+
+   
+
+ 
+   #share-con {
+      margin-top: 100px;
       
-     }
+      background-color: #FFF8E5;
+      color: #ffffff ;
+      font-family: "orpheuspro", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+  }
+
+  #share-txt {
+    margin-top: 100px;
+    
+  }
+
+  #share-txt h2 {
+    margin-bottom: 20px;
+    background-color: #FFF8E5;
+    color: #304455;
+  }
+
+  #share-txt h3 {
+    color: #304455;
+    margin-bottom: 20px;
+    background-color: #FFF8E5;
+  }
+
+
   
-     #heading {
-        height: 108px
-     }
+  #share-pic {
+    margin-top: 80px ;
+    margin-bottom: 80px;
+  }
+   
+ #icons {
+    margin-left: 30px;
+ }
+
+  #icons img {
+    padding-right: 40px;
   
-     #text {
-     height: 255px; 
-     display: inline-block;
-     }
+  }
+
+ #footer-logo {
+   margin-top: 50px;
+   position: absolute;
+   width:200px;
+ }
+
+ #footer {
+    background-color: #FFF8E5;
+ }
+
+  #footer-con {
+    
+    position: absolute;
+    margin-top: 140px;
+    margin-left: -30px;
+    font-family: "orpheuspro", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+     line-height: 60px;
+   
+  }
+
+  #footer-con ul {
+    list-style-type: none;
   
-     #prod-img-1{
-        height:280px;
-        display: inline-block;
-     }
-     
-     #prod-img-2 {
-        height:280px;
-        display: inline-block;
-     }
-     
-     #prod-img-3 {
-        height:280px;
-        display: inline-block;
-     }
-     
-     #prod-img-4 {
-        height:280px;
-        display: inline-block;
-     }
+  }
+
+  #footer-con ul li a {
+    text-decoration: none;
+    color:#304455 ;
+    
+    
+  }
   
-     #heading-2 {
-        height: 108px
-     }
+ 
   
-     #share {
-        height:242px;
-     }
+.close {
+
+   
+
+    color: rgb(0, 0, 0);
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+
+   
+}
+
+.ad {
+ position: absolute;
+ top: 7%;
+
+ 
+
+
+ 
+}
+
+.ad .preview{
+ display: none;
+ width:101.5vw;
+}
+
+.ad .preview.active{
+ display: inline-block;
+}
+
+
+
+
+.ad .preview .close{
+ position: absolute;
+ left:95%;
+ cursor: pointer;
+ color:#444;
+ 
+}
+
+.ad .preview .close:hover{
+ transform:scale(50%);
+}
+   
   
-     #heading-3 {
-        height: 85px;
-     }
-  
-     #email {
-        height: 68px;
-     }
-  
-     #phone {
-        height: 68px;
-     }
-  
-    #sign-up {
-     height: 68px;
-     }
-  
-     #socials-1 {
-        height: 60px;
-     } 
-  
-     #socials-2 {
-        height: 60px;
-     }
-  
-     #socials-3 {
-        height: 60px;
-     }
-  
-     #socials-4 {
-        height: 60px;
-     }
+   
 
 }
 
@@ -364,7 +696,7 @@
       font-family: "orpheuspro", serif;
       font-weight: 400;
       font-style: normal;
-      font-size: 20px;
+      font-size: 22px;
     }  
 
     #why-zima h2{
@@ -381,6 +713,7 @@
     }  
 
     #label {
+      width:268px;
     position: absolute;
       left:60%;
     margin-top: 100px;
@@ -388,7 +721,7 @@
     }
 
     #can {
-    
+     width:268px;
       margin-top: 200px;
      position: absolute;
      margin-left: 60px;
@@ -407,7 +740,7 @@
       font-family: "orpheuspro", serif;
       font-weight: 400;
       font-style: normal;
-      font-size: 20px;
+      font-size: 22px;
     }
 
     #flavour-text h2  {
@@ -432,24 +765,10 @@
       margin-bottom: 30px;
     }
 
-
-
-     #image {
-        height: 823px;
-      
-    }
-  
-     
-  
-    
-  
-     
-  
-   
-     #share-con {
+    #share-con {
         margin-top: 100px;
         
-        background-color: #46627B;
+        background-color: #FFF8E5;
         color: #ffffff ;
         font-family: "orpheuspro", serif;
         font-weight: 400;
@@ -459,14 +778,19 @@
 
     #share-txt {
       margin-top: 100px;
+      
     }
 
     #share-txt h2 {
       margin-bottom: 20px;
+      background-color: #FFF8E5;
+      color: #304455;
     }
 
     #share-txt h3 {
+      color: #304455;
       margin-bottom: 20px;
+      background-color: #FFF8E5;
     }
 
 
@@ -475,37 +799,50 @@
       margin-top: 80px ;
       margin-bottom: 80px;
     }
-     #heading-3 {
-        height: 198px;
+     
+   #icons {
+      margin-left: 30px;
+   }
+  
+    #icons img {
+      padding-right: 40px;
+    
     }
   
-     #email {
-        height: 132px;
+   #footer-logo {
+     margin-top: 50px;
+     position: absolute;
+     width:200px;
+   }
+
+   #footer {
+      background-color: #FFF8E5;
+   }
+
+    #footer-con {
+      
+      position: absolute;
+      margin-top: 140px;
+      margin-left: -30px;
+      font-family: "orpheuspro", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+       line-height: 60px;
+     
     }
-  
-    #phone {
-     height: 132px;
+
+    #footer-con ul {
+      list-style-type: none;
+    
     }
-  
-    #sign-up {
-     height: 132px;
+
+    #footer-con ul li a {
+      text-decoration: none;
+      color:#304455 ;
+      
+      
     }
-  
-    #socials-1 {
-     height: 98px;
-    } 
-  
-    #socials-2 {
-     height: 98px;
-    } 
-  
-    #socials-3 {
-     height: 98px;
-    } 
-  
-    #socials-4 {
-     height: 98px;
-    } 
     
    
     
@@ -524,8 +861,9 @@
   }
 
   .ad {
-   position: fixed;
-   top: 30%;
+  margin-top: -390px;
+  
+
 
    
  
@@ -535,12 +873,11 @@
 
 .ad .preview{
    display: none;
+   width:101.5vw;
+   
 
-   text-align: center;
-
-   position: relative;
   
-   width: 1000px;
+
 }
 
 .ad .preview.active{
