@@ -78,7 +78,7 @@
 }
  #hero {
     height: 163px;
-    background-color: #95aabc;
+  
  }
  
  #image {
@@ -171,9 +171,9 @@
       order: -1;
    }
 
-   #button {
-      display: none;
-   }
+  #button{
+   display: none;
+  }
 
    #burger-con {
       display: block;
@@ -204,10 +204,10 @@
       padding-left: 60px;
     
    }
-  
      #hero {
-        height: 296px;
-        background-color: #95aabc;
+        height: 650px;
+       
+       
      }
   
      #pop-up {
@@ -294,8 +294,13 @@
 /* ---- DESKTOP ---- */
 
 @media screen and (min-width: 1200px) {
+   #button{
+      display: none;
+     }
+   
    #main-header {
-      height: 120px;
+      height: 150px;
+
    }
    
    
@@ -311,6 +316,7 @@
       font-size: 30px;
    }
 
+   
  
    
    #logo {
@@ -324,60 +330,151 @@
     }
   
      #hero {
-        background-color: #95aabc;
-        height: 1120px;
-    }
   
+      width: 100%;
+      height: 675px;
+      
+     }
+    
+     
+     #mybutton {
+         width:200px;
+         height: 70px;
+         background-color:#304455 ;
+         color: #efefef;
+         font-family: "orpheuspro", serif;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 18px;
+         border-radius: 10px;
+         border: none;
+         position: absolute;
+         margin-top: -150px;
+         margin-left: 90px;
+      }
+
+      #mybutton:hover {
+         background-color:#efefef ;
+         color: #304455; 
+      }
+
+    #why-zima {
+      height:900px;
+      color: #304455 ;
+      font-family: "orpheuspro", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+    }  
+
+    #why-zima h2{
+      margin-top: 250px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+      width:300px;
+    }  
+
+    #why-zima p{
+      width:500px;
+      padding-left: 80px;
+      
+    }  
+
+    #label {
+    position: absolute;
+      left:60%;
+    margin-top: 100px;
+   
+    }
+
+    #can {
+    
+      margin-top: 200px;
+     position: absolute;
+     margin-left: 60px;
+
+    }
+    
+    #zima-flavours {
+   
+
+      height: 900px;
+    }
+
+    #flavour-text {
+      margin-top: 200px;
+      color: #304455 ;
+      font-family: "orpheuspro", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+    }
+
+    #flavour-text h2  {
+      padding-bottom: 30px;
+    }
+
+    #fruit-buttons {
+     margin-top: -300px;
+    }
+
+    #fruit-buttons button {
+      padding: 0px; border: none; background: none;
+      margin-bottom: 30px;
+    }
+
+    #fruit-buttons button:hover {
+      transform: scale(110%);
+      transform: rotate(20deg);
+    }
+    
+    #lemon-but {
+      margin-bottom: 30px;
+    }
+
+
+
      #image {
         height: 823px;
       
     }
   
-     #text {
-        height: 823px;
-        display: inline-block;
-    }
-  
-     #image-shape {
-        height: 683px;
-    }
-  
-     #text {
-        height: 683px;
-    }
-  
-     #heading {
-        height: 343px
-    }
-  
-     #prod-img-1{
-        height:738px;
-        display: inline-block;
-    }
      
-     #prod-img-2 {
-        height:738px;
-        display: inline-block;
-    }
+  
+    
+  
      
-     #prod-img-3 {
-        height:738px;
-        display: inline-block;
-    }
-     
-     #prod-img-4 {
-        height:738px;
-        display: inline-block;
-    }
   
-     #heading-2 {
-        height: 343px
+   
+     #share-con {
+        margin-top: 100px;
+        
+        background-color: #46627B;
+        color: #ffffff ;
+        font-family: "orpheuspro", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
     }
-  
-     #share {
-        height:779px;
+
+    #share-txt {
+      margin-top: 100px;
     }
-  
+
+    #share-txt h2 {
+      margin-bottom: 20px;
+    }
+
+    #share-txt h3 {
+      margin-bottom: 20px;
+    }
+
+
+    
+    #share-pic {
+      margin-top: 80px ;
+      margin-bottom: 80px;
+    }
      #heading-3 {
         height: 198px;
     }
@@ -409,4 +506,61 @@
     #socials-4 {
      height: 98px;
     } 
+    
+   
+    
+  .close {
+
+     
+  
+      color: rgb(0, 0, 0);
+      font-family: "orpheuspro", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 30px;
+      text-decoration: none;
+  
+     
+  }
+
+  .ad {
+   position: fixed;
+   top: 30%;
+
+   
+ 
+
+   
+}
+
+.ad .preview{
+   display: none;
+
+   text-align: center;
+
+   position: relative;
+  
+   width: 1000px;
+}
+
+.ad .preview.active{
+   display: inline-block;
+}
+
+.ad .preview img{
+   
+}
+
+.ad .preview .close{
+   position: absolute;
+   left:95%;
+   cursor: pointer;
+   color:#444;
+   
+}
+
+.ad .preview .close:hover{
+   transform:scale(50%);
+}
+
 }
