@@ -57,7 +57,7 @@ body, p, h1, h2, h3, h4, h5 {
    display: grid;
    grid-template-columns: repeat(6, minmax(0, 1fr));
    grid-column-gap: 10px;
-   max-width: 1920px;
+   max-width: 1200px;
    margin: 0 auto;
    padding-left: 37px;
    padding-right: 37px;

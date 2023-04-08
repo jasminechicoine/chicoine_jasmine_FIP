@@ -8,82 +8,105 @@
     <title>Zima Home Page</title>
     <!-- Link to reset or normalize before main.css
     only choose one -->
+  
     <link rel="stylesheet" href="https://use.typekit.net/jwt6say.css">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    
 </head>
   <body>
     <h1 class="hidden">Home Page</h1>
-        <div id="sticky-nav-con">
-            <header class="grid-con" id="main-header">
-                <nav id="main-nav" class="col-start-6 col-end-7 m-col-start-3 m-col-end-10 xl-col-start-6 xl-col-end-16">
-                    <h2 class="hidden">Main Navigation</h2>
-                    <button id="button"></button>
-                    <div id="burger-con">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="distillery.html">Our Distillery</a></li>
-                            <li><a href="about.hmtl">About Us</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <div id="logo" class="col-span-full m-col-start-8 ">
-                    <img src="images/zima-logo.svg" alt="Couples Resort Logo">
+    <div id="sticky-nav-con">
+        <header class="grid-con" id="main-header">
+            <nav id="main-nav" class="col-start-6 col-end-7 m-col-start-3 m-col-end-10 xl-col-start-6 xl-col-end-16">
+                <h2 class="hidden">Main Navigation</h2>
+                <button id="button"></button>
+                <div id="burger-con">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="distillery.html">Our Distillery</a></li>
+                        <li><a href="about.hmtl">About Us</a></li>
+                    </ul>
                 </div>
-               
-            </header>
-        </div>
+            </nav>
+            <div id="logo" class="col-span-full m-col-start-8 ">
+                <img src="images/zima-logo.svg" alt="Couples Resort Logo">
+            </div>
+           
+        </header>
+    </div>
 
 
     <main>
         <h2 class="hidden"> Main Content </h2>
-            <section class="full-width-grid-con" id="hero-con">
+            <section id="hero-con">
                 <h2 class="hidden"> Hero Image </h2>
-                <div id="hero" class="box col-span-full">Brand Name </div>
+                <div id="hero">
+                    <img src="images/Zima-hero.png" alt="hero image">
+                </div>
+                <div class="products-container">
+
+                    <div class="product" data-name="spring">
+                        <button id="mybutton"> Discover Flavours</button> 
+                    </div>
+                </div>
             </section>
 
-            <section class="full-width-grid-con">
-                <h2 class="hidden"> Pop Up Ad </h2>
-                <div id="pop-up" class="box col-span-full">Pop up ad</div>
-            </section>
-
-            <section class="grid-con">
-                <h2 class="hidden"> Image 1 </h2>
-                <div id="image" class="box col-start-1 col-end-5 m-col-start-2 m-col-end-8 xl-col-start-1 xl-col-end-14">Image</div>
-            </section>
-
-            <section class="grid-con">
-                <h2 class="hidden"> Text </h2>
-                <div id="image-shape" class="box col-start-1 col-end-5 m-col-start-2 m-col-end-5 xl-col-start-2 xl-col-end-7">image</div>
-                <div id="text" class="box m-col-start-5 m-col-end-8 xl-col-start-8 xl-col-end-13">Text</div>
-            </section>
-
-            <section class="full-width-grid-con">
-                <h2 class="hidden"> Heading </h2>
-                <div id="heading" class="box col-span-full m-col-span-full xl-col-span-full">Heading</div>
-            </section>
-
-            <section class="grid-con">
-                <h2 class="hidden"> Product images </h2>
-                <div id="prod-img-1" class="box col-start-1 col-end-5 m-col-start-1 m-col-end-5 xl-col-start-1 xl-col-end-7">Product-Image1</div>
-                <div id="prod-img-2" class="box  m-col-start-5 m-col-end-9 xl-col-start-8 xl-col-end-14">Product-Image2</div>
-            </section>
-
-            <section class="grid-con">
-                <h2 class="hidden"> Product images 2 </h2>
-                <div id="prod-img-3" class="box m-col-start-1 m-col-end-5 xl-col-start-1 xl-col-end-7">Product-Image3</div>
-                <div id="prod-img-4" class="box  m-col-start-5 m-col-end-9 xl-col-start-8 xl-col-end-14">Product-Image4</div>
+            <section class="grid-con" id="why-zima">
+                <img src="images/label.png" alt="zima can blueberry" id="label" class="xl-col-start-8 xl-col-end-16">
+               <div class="xl-col-start-1 xl-col-end-6"> 
+                    <h2> Our Clear Beer</h2>
+                    <p>This clear beer also can be reffered to as a vodka selter, is a healthier and better option than other carbonated beverages because it has no added sugar or artificial ingredients. It's a natural and low-calorie alternative that can keep you hydrated </p>
+               </div>
+                
             </section>
             
-            <section class="full-width-grid-con">
-                <h2 class="hidden"> Heading 2 </h2>
-                <div id="heading-2" class="box col-span-full m-col-span-full xl-col-span-full">Heading 2</div>
+            <section class="grid-con" id="zima-flavours">
+                <img src="images/blueberry.png" alt="zima can blueberry" id="can" class="xl-col-start-8 xl-col-end-16">
+               <div id="flavour-text" class="xl-col-start-9 xl-col-end-15"> 
+                    <h2> Our Clear Beer</h2>
+                    <p>This clear beer also can be reffered to as a vodka selter, is a healthier and better option than other carbonated beverages because it has no added sugar or artificial ingredients. It's a natural and low-calorie alternative that can keep you hydrated </p>
+               </div>
+                
             </section>
 
-            <section class="grid-con">
-                <h2 class="hidden"> Share Section </h2>
-                <div id="share" class="box col-start-1 col-end-5 m-col-start-2 m-col-end-8 xl-col-start-1 xl-col-end-14">Share</div>
+            <section>
+                <div class="grid-con" id="fruit-buttons">
+                    <button id="lime-but" class="xl-col-start-8 xl-col-end-10"><img src="images/lime-button.png" alt="lime button"></button>
+                    
+                    <button id="lemon-but" class="xl-col-start-10 xl-col-end-12"><img src="images/lemon-button.png" alt="lemon button"></button>
+                    
+                    <button id="grapefruit-but" class="xl-col-start-12 xl-col-end-14"><img src="images/grapefruit-button.png" alt="grapefruit button"></button>
+                    
+                    <button id="blue-but" class="xl-col-start-14 xl-col-end-16"><img src="images/blueberry-button.png" alt="blueberry button"></button>
+                    
+                    <button id="peach-but" class="xl-col-start-8 xl-col-end-10"><img src="images/peach-button.png" alt="peach button"></button>
+                    
+                    <button id="cherry-but" class="xl-col-start-10 xl-col-end-12"><img src="images/cherry-button.png" alt="cherry button"></button>
+                    
+                    <button id="grape-but" class="xl-col-start-12 xl-col-end-14"><img src="images/grape-button.png" alt="grape button"></button>
+                   </div>
             </section>
+     
+           
+            
+            
+            <section class="full-width-grid-con">
+                <h2 class="hidden">share background</h2>
+                <div id="share-back" class="box col-span-full m-col-span-full xl-col-span-full"></div>
+            </section>
+
+            <section class="grid-con" id="share-con">
+                <h2 class="hidden">share content</h2>
+                <img id="share-pic" class="xl-col-start-1 xl-col-end-8" src="images/share-photo.png" alt="share photo">
+              <div id="share-txt" class="xl-col-start-10 xl-col-end-16">  
+                <h2>@ZIMACANADA</h2>
+                <h3>Tag us for a chance to be featured on our official instagram</h3>
+                <h3>MUST BE 19 OR OVER</h3>
+              </div>
+            </section>
+
+            
 
             <section class="full-width-grid-con">
                 <h2 class="hidden"> Heading 3 </h2>
@@ -120,10 +143,17 @@
             </section>
 
     </footer>
-
+    <div class="ad">
+        
+      
+        <div class="preview" data-target="spring">
+            <i class="close">X</i>
+           <img src="images/ad.png" alt="ad">
+        </div>
+    </div>
   
     
-   
+    <script src="js/ad.js"></script>
    <script src="js/main.js"></script>
- </body>
+   </body>
 </html>
