@@ -44,7 +44,7 @@
                     </p>
                 </section>
         
-                <section class="grid">
+                <section>
                     <h2 class="hidden">learn more</h2>
                     <img id="learn-more" src="images/learn-more.png" alt="click member to learn more">
                 </section>
@@ -54,27 +54,52 @@
                     <ul class="members">
                         <li>
                             <a href="#lightbox" data-member="jazzy">
-                              <img src="images/jazzy.png" alt="jasmine">
+                              <img id="jas" src="images/jazzy.png" alt="jasmine">
                             </a>
                             
                         </li>
         
                         <li>
                             <a href="#lightbox" data-member="nial">
-                                <img src="images/nial.png" alt="nial">
+                                <img id="nial" src="images/nial.png" alt="nial">
                             </a>
                            
                         </li>
         
                         <li>
                             <a href="#lightbox" data-member="chloe">
-                                <img src="images/chloe.png" alt="chloe">
+                                <img id="chlo" src="images/chloe.png" alt="chloe">
                             </a>
                         
                         </li>
         
                     </ul>
                 </nav>
+                <section class="grid-con">
+
+                    <img id="mount-icon" class="col-start-2 col-end-6 m-col-start-4 m-col-end-6 xl-col-start-7 xl-col-end-11" src="images/mountain.svg" alt="mountain icon">
+
+                    <div class="col-span-full m-col-start-2 m-col-end-8 xl-col-start-4 xl-col-end-13" id="info">
+                        <p>Zima has been able to maintain a deep commitment to progressive environmentalism since day one. With Zima we believe living in harmony with the earth is
+                            essential.</p>
+                    </div>
+
+                    <div class=" col-span-full m-col-span-full xl-col-span-full" id="sign-up">
+                        <h2>Sign Up For Our Newsletter!</h2>
+                        <p>Keep up to date with new product drops and amazing offers! By signing up youll be the first to hear about any new specials Zima will have. </p>
+                    </div>
+
+                <form id="contact-form" action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullName" type="text" placeholder="First Name">
+                    <input name="fullName" type="text" placeholder="Last Name">
+                    <input name="contactInfo" type="text" required placeholder="Email e.g. example@mail.com">
+                    <input name="contactInfo" type="text" required placeholder="Phone Number e.g. (111-222-3333)">
+                    <textarea name="msg" placeholder="Leave a Comment!"></textarea>
+                    <input id="submit" name="submit" type="submit" value="Sign Up">
+                </form>
+
+               
+                </section>
         
             </main>
 

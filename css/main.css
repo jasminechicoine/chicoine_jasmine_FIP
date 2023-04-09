@@ -376,7 +376,239 @@
    margin-top: 200px;
    margin-bottom: 100px;
  }
+
+/*-----------------About Us-------------------*/
+ .container {
+   background-image: url('../images/mountains-mob.png'); 
+   background-repeat: no-repeat;
+
+
+}
+
+#main-text {
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 10px;
+   width:320px;
+   color: white;
+   padding-left: 10px;
+   padding-top: 10px;
  
+}
+
+.members { list-style-type: none; 
+   padding-top: 20px;
+   padding-bottom: 100px;
+   margin-left: 15px;
+
+}
+
+#jas {
+  width:220px;
+  padding-bottom: 50px;
+}
+
+#nial {
+  width:220px;
+  padding-bottom: 50px;
+}
+
+#chlo {
+  width:220px;
+  padding-bottom: 50px;
+}
+
+#learn-more {
+   width: 127px;
+   margin-left: 100px;
+   margin-top:10px
+}
+
+
+
+#contact-text {
+	font-size: 30px;
+	font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+   
+	box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
+}
+
+#contact-form {
+ 
+   padding-top:30px;
+   height: 650px;
+
+
+
+}
+
+
+
+#contact-form textarea {
+	height: 100px;
+    border: none;
+    border-radius:  10px;
+    margin-bottom: 0px;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 40px;
+
+	width: 250px;
+	box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+}
+
+#contact form textarea[name="msg"] {
+	padding-left: 0px;
+
+	padding-top: 20px;
+}
+#contact-form input {
+    height:60px;
+     
+	display: flex;
+	flex-direction:column;
+    border: none;
+    border-radius:  10px;
+   font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 12px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 24px;
+   background-color: #FFF8E5;
+	width:250px;
+	box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+}
+
+#contact-form input[type="text"] {
+	padding-left: 20px;
+
+}
+#contact-form input[type="submit"]:hover {
+    background-color: #677c90;
+    border-radius: 10px;
+	color: #ffffff;
+
+}
+#contact-form input[type="submit"] {
+	width: 250px;
+   font-size: 20px;
+   padding-left: 90px;
+   padding-top: 15px;
+	background-color: #304455;
+	color: #ffffff;
+  
+
+}
+
+#info {
+   padding-top: 50px;
+   padding-bottom: 150px;
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color:#304455;
+}
+#sign-up {
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color:#304455;
+  padding-bottom: 60px;
+}
+
+#sign-up h2 {
+   
+  padding-bottom: 20px;
+}
+
+
+#mount-icon {
+   margin-top: 100px;
+}
+
+/* lightbox rules */
+
+.lightbox { 
+   width: 100vw; 
+   height: 100vh;
+
+   position: absolute;
+
+   top: 0;
+   
+   color: white;
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+   color: black;
+   
+
+
+
+   background-color: rgba(255, 255, 255, 0.85);
+   background-image: url('');
+   background-repeat: no-repeat;
+
+   background-size: 55vh; 
+   background-position: 40px bottom;
+
+   z-index: 5000;
+
+   display: none;
+}
+
+
+.lightbox_close {
+   position: relative;
+   top: 20px;
+   left: 95%;
+
+   color: white;
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+   color: black;
+
+   text-decoration: none;
+
+  
+}
+
+.lightbox_close:hover { opacity: 0.5; color: rgb(139, 209, 255); }
+
+.lightbox article {
+   width: 55%;
+   margin-left: 20%;
+   padding-top: 60px;
+}
+
+.lb_heading {
+   padding-bottom: 30px;
+   font-size: 100px;
+}
+
+.lb_text {
+   line-height: 1.6 !important;
+   margin-left: 0;
+   padding-top: 2em;
+}
+
+.lightbox:target { 
+   display: block; }
 
 
 
@@ -725,10 +957,247 @@
  }
    
 
+
+
+/* --------------------About Us-------------------- */
+.container {
+   background-image: url('../images/mountains-tab.png'); 
+   background-repeat: no-repeat;
+
+
+}
+
+#main-text {
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   width:500px;
+   color: white;
+   padding-left: 50px;
+   padding-top: 50px;
+ 
+}
+
+.members { list-style-type: none; 
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 20px;
+   padding-bottom: 100px;
+   margin-left: -40px;
+
+}
+
+#jas {
+  width:111px;
+}
+
+#nial {
+  width:111px;
+}
+
+#chlo {
+  width:111px;
+}
+
+#learn-more {
+   width: 197px;
+   margin-left: 280px;
+   margin-top:20px
 }
 
 
-/* ---- DESKTOP ---- */
+
+#contact-text {
+	font-size: 30px;
+	font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+   
+	box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
+}
+
+#contact-form {
+   padding-top:30px;
+   height: 650px;
+   margin-left: 80px;
+
+
+}
+
+
+
+#contact-form textarea {
+	height: 100px;
+    border: none;
+    border-radius:  10px;
+    margin-bottom: 0px;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 40px;
+
+	width: 375px;
+	box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+}
+
+#contact form textarea[name="msg"] {
+	padding-left: 40px;
+	padding-right: 150px;
+	padding-top: 20px;
+}
+#contact-form input {
+    height:60px;
+     
+	display: flex;
+	flex-direction:column;
+   
+    border: none;
+    border-radius:  10px;
+   font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 18px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 24px;
+   background-color: #FFF8E5;
+	width:375px;
+	box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+}
+
+#contact-form input[type="text"] {
+	padding-left: 20px;
+
+}
+#contact-form input[type="submit"]:hover {
+    background-color: #677c90;
+    border-radius: 10px;
+	color: #ffffff;
+
+}
+#contact-form input[type="submit"] {
+	font-size: 30px;
+   width: 375px;
+   padding-left: 135px;
+   padding-top: 5px;
+	background-color: #304455;
+	color: #ffffff;
+  
+
+}
+
+#info {
+   padding-top: 50px;
+   padding-bottom: 150px;
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color:#304455;
+}
+#sign-up {
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color:#304455;
+  padding-bottom: 60px;
+}
+
+#sign-up h2 {
+   
+  padding-bottom: 20px;
+}
+
+
+#mount-icon {
+   margin-top: 20px;
+}
+
+
+/* lightbox rules */
+
+.lightbox { 
+   width: 100vw; 
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   color: white;
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   color: black;
+   background-color: rgba(255, 255, 255, 0.85);
+   background-image: url('');
+   background-repeat: no-repeat;
+   background-size: 55vh; 
+   background-position: 40px bottom;
+   z-index: 5000;
+   display: none;
+}
+
+
+.lightbox_close {
+   position: relative;
+   top: 20px;
+   left: 95%;
+
+   color: white;
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+   color: black;
+
+   text-decoration: none;
+
+  
+}
+
+.lightbox_close:hover { opacity: 0.5; color: rgb(139, 209, 255); }
+
+.lightbox article {
+   width: 55%;
+   margin-left: 20%;
+   padding-top: 60px;
+}
+
+.lb_heading {
+   padding-bottom: 30px;
+   font-size: 100px;
+}
+
+.lb_text {
+   line-height: 1.6 !important;
+   margin-left: 0;
+   padding-top: 2em;
+}
+
+.lightbox:target { 
+   display: block; }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* ---- DESKTOP ---- */
 
 @media screen and (min-width: 1200px) {
    #button{
@@ -753,9 +1222,6 @@
       font-size: 30px;
    }
 
-   
- 
-   
    #logo {
       max-width: 300px;
       margin-top: 10px;
@@ -1064,7 +1530,7 @@
 
 /* --------------------About Us-------------------- */
  .container {
-    background-image: url('../images/mountains.png'); 
+    background-image: url('../images/mountains-desk.png'); 
     background-repeat: no-repeat;
     max-width: 1200px;
 
@@ -1085,15 +1551,142 @@
 .members { list-style-type: none; 
     display: flex;
     justify-content: space-evenly;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 100px;
+    margin-left: -40px;
 
+}
+
+#jas {
+   width:181px;
+}
+
+#nial {
+   width:181px;
+}
+
+#chlo {
+   width:181px;
 }
 
 #learn-more {
-    margin-left: 320px;
+    width: 297px;
+    margin-left: 450px;
     margin-top:90px
 }
+
+
+
+#contact-text {
+	font-size: 30px;
+	font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+   
+	box-shadow: 5px 5px 5px rgba(33, 37, 34, 0.486);
+}
+
+#contact-form {
+   padding-top:30px;
+   height: 650px;
+   margin-left: 290px;
+
+
+}
+
+
+
+#contact-form textarea {
+	height: 100px;
+    border: none;
+    border-radius:  10px;
+    margin-bottom: 0px;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 40px;
+
+	width: 375px;
+	box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+}
+
+#contact form textarea[name="msg"] {
+	padding-left: 40px;
+	padding-right: 150px;
+	padding-top: 20px;
+}
+#contact-form input {
+    height:60px;
+     
+	display: flex;
+	flex-direction:column;
+   
+    border: none;
+    border-radius:  10px;
+   font-family: "orpheuspro", serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 18px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 24px;
+   background-color: #FFF8E5;
+	width:375px;
+	box-shadow: 5px 5px 5px rgba(5, 5, 4, 0.2);
+}
+
+#contact-form input[type="text"] {
+	padding-left: 20px;
+
+}
+#contact-form input[type="submit"]:hover {
+    background-color: #677c90;
+    border-radius: 10px;
+	color: #ffffff;
+
+}
+#contact-form input[type="submit"] {
+	width: 375px;
+   padding-left: 155px;
+   padding-top: 15px;
+	background-color: #304455;
+	color: #ffffff;
+  
+
+}
+
+#info {
+   padding-top: 50px;
+   padding-bottom: 300px;
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color:#304455;
+}
+#sign-up {
+   font-family: "orpheuspro", serif;
+   font-weight: 400;
+   font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color:#304455;
+  padding-bottom: 60px;
+}
+
+#sign-up h2 {
+   
+  padding-bottom: 20px;
+}
+
+
+#mount-icon {
+   margin-top: 150px;
+}
+
 
 
 /* lightbox rules */
