@@ -40,3 +40,41 @@ previewBox.forEach(close =>{
     adContainer.style.display = 'none';
   };
 });
+
+const canImage = document.getElementById("can");
+const limeButton = document.getElementById("lime-but");
+const lemonButton = document.getElementById("lemon-but");
+const grapefruitButton = document.getElementById("grapefruit-but");
+const blueberryButton = document.getElementById("blue-but");
+const peachButton = document.getElementById("peach-but");
+const cherryButton = document.getElementById("cherry-but");
+const grapeButton = document.getElementById("grape-but");
+
+
+limeButton.addEventListener("click", () => {
+  canImage.src = "images/lime.png";
+});
+
+lemonButton.addEventListener("click", () => {
+  canImage.src = "images/lemon.png";
+});
+
+grapefruitButton.addEventListener("click", () => {
+  canImage.src = "images/grapefruit.png";
+});
+
+blueberryButton.addEventListener("click", () => {
+  canImage.src = "images/blueberry.png";
+});
+
+peachButton.addEventListener("click", () => {
+  canImage.src = "images/peach.png";
+});
+
+cherryButton.addEventListener("click", () => {
+  canImage.src = "images/cherry.png";
+});
+
+grapeButton.addEventListener("click", () => {
+  canImage.src = "images/grape.png";
+});
