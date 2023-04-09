@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- in mobile set initial zoom level of page to 100%, set site size to equal 
+        device width not a larger canvas that is shrunk down-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Zima About Us Page</title>
+    <!-- Link to reset or normalize before main.css
+    only choose one -->
+    <link rel="stylesheet" href="https://use.typekit.net/jwt6say.css">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+  <body>
+    <h1 class="hidden">Zima About Us Page</h1>
+        <div id="sticky-nav-con">
+            <header class="grid-con" id="main-header">
+                <nav id="main-nav" class="col-start-6 col-end-7 m-col-start-3 m-col-end-10 xl-col-start-6 xl-col-end-16">
+                    <h2 class="hidden">Main Navigation</h2>
+                    <button id="button"></button>
+                    <div id="burger-con">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#distillery.html">Our Distillery</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="logo" class="col-span-full m-col-start-8 ">
+                    <img src="images/zima-logo.svg" alt="Couples Resort Logo">
+                </div>
+               
+            </header>
+            
+            <div class="container">
+                <h1 class="hidden">main content</h1>
+           
+        
+            <main>
+                <section id="main-text">
+                    <h2>Meet The Team.</h2>
+                    <p>We see ourselves as much more than just co-workers, but as a family of like-minded, kind and talented people who love to collaborate and make awesome stuff.
+                    </p>
+                </section>
+        
+                <section class="grid">
+                    <h2 class="hidden">learn more</h2>
+                    <img id="learn-more" src="images/learn-more.png" alt="click member to learn more">
+                </section>
+                    
+                <nav id="members_nav">
+                    <h2 class="hidden">team members</h2>
+                    <ul class="members">
+                        <li>
+                            <a href="#lightbox" data-member="jazzy">
+                              <img src="images/jazzy.png" alt="jasmine">
+                            </a>
+                            
+                        </li>
+        
+                        <li>
+                            <a href="#lightbox" data-member="nial">
+                                <img src="images/nial.png" alt="nial">
+                            </a>
+                           
+                        </li>
+        
+                        <li>
+                            <a href="#lightbox" data-member="chloe">
+                                <img src="images/chloe.png" alt="chloe">
+                            </a>
+                        
+                        </li>
+        
+                    </ul>
+                </nav>
+        
+            </main>
+
+            <footer>
+                <div id="footer" class="grid-con">
+                    <h2 class="hidden"> Main Footer Content </h2>   
+                    <img id="footer-logo" class="xl-col-start-1 xl-col-end-4" src="images/logo.png" alt="logo">
+        
+                   
+                    <nav class="xl-col-start-1 xl-col-end-8" id="footer-con">
+                        
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="distillery.html">Our Distillery</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                        </ul>
+        
+                        <div id="icons">
+                            <img src="images/facebook-icon.png" alt="facebook icon">
+                            <img src="images/instagram-icon.png" alt="instagram icon">
+                            <img src="images/twitter-icon.png" alt="twitter icon">
+                        </div>
+                        
+                    </nav>
+        
+        
+                    <section>
+                        <h2 class="hidden"> Social Media </h2>
+                        
+                    </section>
+                </div>
+        
+            </footer>
+        
+        
+            <!-- lightbox goes here -->
+            <section class="lightbox" id="lightbox">
+                <h2 class="hidden">lightbox jazzy</h2>
+                <a href="" class="lightbox_close">x</a>
+        
+                <article>
+                    <h2 class="lb_heading"></h2>
+                    <h3 class="lb_heading2">Graphic Designer</h3>
+        
+                    <p class="lb_text"></p>
+                        
+                </article>
+            </section>
+        
+            <section class="lightbox" id="lightbox-nial">
+                <h2 class="hidden">lightbox nial</h2>        
+                <a href="" class="lightbox_close">x</a>
+        
+                <article>
+                    <h2 class="lb_heading"></h2>
+                    <h3 class="lb_heading2">Web Developer</h3>
+        
+                    <p class="lb_text">Nial brings more than 10 years experience in web technologies and digital solutions. He has refined his skills working with different advertising agencies and organizations. His expertise focuses on making creative ideas become attainable solutions, providing strategic ways of bringing ideas to execution.</p>
+                        
+                </article>
+            </section>
+        
+            <section class="lightbox" id="lightbox-chlo">
+                <h2 class="hidden"></h2>
+                <a href="" class="lightbox_close">x</a>
+        
+                <article>
+                    <h2 class="lb_heading">Chloe Pyke</h2>
+                    <h3 class="lb_heading2">Social Media Specialist</h3>
+        
+                    <p class="lb_text">Chloe has more than three years of experience collaborating with clients to create engaging content and designing graphics for their social media presence, emails, blogs, etc. In addition to that, she has over a year of experience working as a virtual assistant, assisting clients with podcast management, graphic design, administrative support, and anything else to assist the needs of the client or business.</p>
+                        
+                </article>
+            </section>
+        <!-- add people first -->
+        <script src="js/members.js"></script>
+        <script src="js/about.js"></script>
+        </div>
+        </div>
+
+
+  
+    
+  
+ </body>
+</html>
