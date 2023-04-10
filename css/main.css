@@ -103,6 +103,7 @@
        border: none;
        position: absolute;
        margin-top: 0px;
+       margin-left: 0;
        
     }
 
@@ -118,18 +119,20 @@
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
+    
   }  
 
   #why-zima h2{
     margin-top: 150px;
     padding-bottom: 50px;
-    padding-left: 20px;
-    width:100vw;
+    padding-left: 50px;
+    width:250px
   }  
 
   #why-zima p{
-    width:250px;
-    padding-left: 10px;
+    width:240px;
+    
+    text-align: center;
     
   }  
 
@@ -143,7 +146,7 @@
 
   #can {
    width:141px;
-    margin-top: 170px;
+    margin-top: 190px;
    position: absolute;
    margin-left: 60px;
    
@@ -157,13 +160,15 @@
   }
 
   #flavour-text {
-   
+    margin-right: 30px;
     margin-top: 0px;
     color: #304455 ;
     font-family: "orpheuspro", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
+    text-align: center;
+    
   }
 
   #flavour-text h2  {
@@ -175,7 +180,8 @@
   }
 
   #fruit-buttons button {
-    padding: 0px; border: none; background: none;
+    padding: 0px; border: none; 
+    background: none;
     margin-bottom: 30px;
   }
 
@@ -222,7 +228,7 @@
   }
    
  #icons {
-    margin-left: 50px;
+    margin-left: 10px;
  }
 
   #icons img {
@@ -287,6 +293,7 @@
  width:340px;
 
 
+
  
 
 
@@ -295,6 +302,7 @@
 
 .ad .preview{
  display: none;
+ margin-top: 33px;
 }
 
 .ad .preview.active{
@@ -306,7 +314,7 @@
 
 .ad .preview .close{
  position: absolute;
- left:90%;
+ left:80%;
  cursor: pointer;
  color:#444;
  
@@ -378,7 +386,12 @@
  }
 
 /*-----------------About Us-------------------*/
- .container {
+ 
+
+
+
+
+.container {
    background-image: url('../images/mountains-mob.png'); 
    background-repeat: no-repeat;
 
@@ -398,7 +411,7 @@
 }
 
 .members { list-style-type: none; 
-   padding-top: 20px;
+   padding-top: 80px;
    padding-bottom: 100px;
    margin-left: 15px;
 
@@ -552,7 +565,7 @@
    font-family: "orpheuspro", serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 40px;
+   font-size: 8px;
    color: black;
    
 
@@ -881,6 +894,7 @@
 
 .ad .preview{
  display: none;
+ margin-top: 38px;
  
 }
 
@@ -1446,6 +1460,7 @@
 .ad .preview{
    display: none;
    width:100%;
+   margin-top: 38px;
    
 
   
@@ -1456,9 +1471,7 @@
    display: inline-block;
 }
 
-.ad .preview img{
-   
-}
+
 
 .ad .preview .close{
    position: absolute;
@@ -1649,8 +1662,8 @@
 }
 #contact-form input[type="submit"] {
 	width: 375px;
-   padding-left: 155px;
-   padding-top: 15px;
+   padding-left: 145px;
+   padding-top: 8px;
 	background-color: #304455;
 	color: #ffffff;
   
