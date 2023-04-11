@@ -727,6 +727,7 @@
   #why-zima p{
     width:300px;
     padding-left: 20px;
+    text-align: left;
     
   }  
 
@@ -1282,6 +1283,7 @@
       font-weight: 400;
       font-style: normal;
       font-size: 22px;
+
     }  
 
     #why-zima h2{
@@ -1289,11 +1291,13 @@
       padding-bottom: 50px;
       padding-left: 80px;
       width:300px;
+   
     }  
 
     #why-zima p{
       width:500px;
       padding-left: 80px;
+      text-align: left;
       
     }  
 
